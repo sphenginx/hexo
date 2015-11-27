@@ -68,10 +68,10 @@ pagination_dir: page
 theme: next
 
 # title, chinese available
-links_title: Links
+# links_title: Links
 # links
-links:
-  MacTalk: http://www.sphenginx.com/
+# links:
+  # MacTalk: http://www.sphenginx.com/
 
 #since
 since: 2012
