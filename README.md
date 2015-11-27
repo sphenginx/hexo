@@ -58,6 +58,7 @@ __Helper url__
  - [使用GitHub和Hexo搭建免费静态Blog](http://wsgzao.github.io/post/hexo-guide/)
  - [使用hexo搭建博客](http://yangjian.me/workspace/building-blog-with-hexo/) 
  - [Hexo在github上构建免费的Web应用](http://blog.fens.me/hexo-blog-github/)
+ - [hexo-theme-next](https://github.com/iissnan/hexo-theme-next)
 
 __QA__
  - `git replacing LF with CRLF` [With stackoverflow helper](http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf)

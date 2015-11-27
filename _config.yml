@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sphenginx
-subtitle:
-description:
+title: 平常心
+subtitle: 独立之精神, 自由之思想！
+description: sphenginx, just do it!
 author: Sphenginx Cui
-language:
-timezone:
+avatar: https://avatars1.githubusercontent.com/u/1829395?v=3&s=460
+# language 简体中文
+language: zh-Hans
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +65,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
+
+# title, chinese available
+links_title: Links
+# links
+links:
+  MacTalk: http://www.sphenginx.com/
+
+#since
+since: 2012
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
