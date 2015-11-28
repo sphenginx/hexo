@@ -1,7 +1,7 @@
 title: hexo
 date: 2015-9-17 16:03:01
-categories: hexo
-tags: hello world
+categories: 日薪越亿
+tags: hexo
 ---
 Welcome to [Hexo](http://hexo.io/)!  Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

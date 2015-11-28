@@ -1,6 +1,6 @@
 title: PHP依赖管理工具Composer入门
 date: 2015-11-07 14:43:25
-categories: 日新月异
+categories: 日薪越亿
 tags: [composer, php]
 ---
 __介绍__

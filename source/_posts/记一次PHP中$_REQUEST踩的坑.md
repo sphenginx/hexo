@@ -1,6 +1,6 @@
 title: 记一次PHP中$_REQUEST踩的坑
 date: 2014-11-27 09:27:40
-categories: 日新月异
+categories: 日薪越亿
 tags: [request, php]
 ---
 __前记__

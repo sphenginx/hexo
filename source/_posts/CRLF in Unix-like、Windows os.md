@@ -1,6 +1,6 @@
 title: 解决Unix-like、Windows系统之间文本换行符不同的问题
 date: 2014-12-24 17:02:50
-categories: 日新月异
+categories: 日薪越亿
 tags: [CRLF, unix]
 ---
 \r是回车符,\n是换行符，各个系统的换行标志：

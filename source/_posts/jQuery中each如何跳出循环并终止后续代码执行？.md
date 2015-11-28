@@ -1,6 +1,6 @@
 title: jQuery中each如何跳出循环并终止后续代码执行？
 date: 2014-12-24 17:02:50
-categories: 日新月异
+categories: 日薪越亿
 tags: jquery
 ---
 __前记__
