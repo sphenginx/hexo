@@ -14,8 +14,8 @@ __排查__
 __解决__
 
 那么，如何才能阻止表单的提交呢，想了N久，想到在each循环前，先定义一个变量为true，然后在循环读取规格的时候，如果值为空，则把变量定义为false，同时return false，代码如下：
+出现bug的代码
 ```jquery
-#出现bug的代码
 $(".spec").each(function(){
     var s =$(this).val();
     if(!s){
@@ -25,16 +25,15 @@ $(".spec").each(function(){
 })
 ```
 这样return false，只是终止循环，并没有终止程序。
-
+更新后的代码
 ```jquery
-#更新后的代码
 var real_true = true;
 $(".spec").each(function(){
     var s =$(this).val();
     if(!s){
-	 alert('规格不能为空');
-	  real_true = false;
-         return false;
+        alert('规格不能为空');
+        real_true = false;
+        return false;
     }
 })
 if(!real_true){
