@@ -1,5 +1,8 @@
-#解决Unix-like、Windows系统之间文本换行符不同的问题
-
+title: 解决Unix-like、Windows系统之间文本换行符不同的问题
+date: 2014-12-24 17:02:50
+categories: 日新月异
+tags: jquery
+---
 \r是回车符,\n是换行符，各个系统的换行标志：
 
 >	win                   用   \r\n
