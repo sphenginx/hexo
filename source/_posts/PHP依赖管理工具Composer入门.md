@@ -3,11 +3,11 @@ date: 2015-11-07 14:43:25
 categories: 日薪越亿
 tags: [composer, php]
 ---
-__介绍__
+## 介绍
 
 Composer是PHP中的一个依赖管理工具. 它可以让你声明自己项目所依赖的库，然后它将会在项目中为你安装这些库。
 
-__依赖管理__
+## 依赖管理
 
 Composer不是包管理器。是的，它实际上和"包"或者库打交道，但是它是以项目为单位进行管理，把它们安装到你项目中的一个目录（例如vendor）。默认情况下它不会以全局的方式安装任何东西。因此，它是一个依赖管理器。
 
@@ -18,7 +18,7 @@ Composer不是包管理器。是的，它实际上和"包"或者库打交道，�
  - 你声明你所依赖的库。
  - Composer找出哪些包的哪个版本将会被安装，然后安装它们（也就是把它们下载到你的项目中）。
 
-__声明依赖关系__
+## 声明依赖关系
 
 假设你正在创建一个项目，然后你需要一个日志操作的库。你决定使用monolog。为了把它加入到你的项目中，你需要做的就是创建一个名为composer.json的文件，其描述这个项目的依赖关系。
 ```composer
@@ -30,7 +30,7 @@ __声明依赖关系__
 ```
 我们简单的描述说我们的项目依赖某个monolog/monolog包，版本只要是以1.2开头的就行。
 
-__系统要求__
+## 系统要求
 
 Composer需要PHP **5.3.2+** 才能运行。一些灵敏的PHP设置和编译选项也是必须的，不过安装程序 `installer` 会警告你任何不兼容的地方。
 如果想要从源码而不是简单的从zip压缩包中安装软件包的话，你将需要git，svn或者hg，这依赖于软件包是通过什么进行版本控制的。
@@ -53,7 +53,7 @@ $ sudo mv composer.phar /usr/local/bin/composer
 ```
 然后，只需要执行composer命令来运行Composer，而不是php composer.phar。
 
-__Windows使用安装程序__
+## Windows使用安装程序
 
 这是在你的机器上安装Composer最简单的方法。
 下载并运行[Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)，它将会安装最新的Composer版本并且设置好PATH，然后你就可以在命令中的任何目录下调用composer了。
@@ -75,7 +75,7 @@ Composer version 27d8904
 C:\Users\username>
 ```
 
-__使用Composer__
+## 使用Composer
 
 我们接下来要使用Composer来安装项目的依赖。如果你在当前目录下没有一个叫作**composer.json**的文件，请跳到基本使用章节。
 为了解决并下载依赖，运行install命令：

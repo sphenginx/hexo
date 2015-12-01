@@ -3,15 +3,15 @@ date: 2014-12-24 17:02:50
 categories: 日薪越亿
 tags: jquery
 ---
-__前记__
+## 前记
 
 今天在表单提交验证的时候，需要检测商品是否有规格，因为商品有多个规格，所以用到了jquery的each，循环读取每个规格，如果值为空，则return false；但是，后来发现return false 表单还是提交了，百思不得其解。
 
-__排查__
+## 排查
 
 后来查看manual才发现：`jquery的each函数中，return false只能提前终止循环，相当于break；return true相当于 continue。`
 
-__解决__
+## 解决
 
 那么，如何才能阻止表单的提交呢，想了N久，想到在each循环前，先定义一个变量为true，然后在循环读取规格的时候，如果值为空，则把变量定义为false，同时return false，代码如下：
 出现bug的代码
