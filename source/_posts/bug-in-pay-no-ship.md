@@ -1,4 +1,4 @@
-title: 记一次PHP中$_REQUEST踩的坑
+title: 记一次未付款发货的天坑逻辑
 date: 2015-01-17 16:03:01
 categories: No Zuo No Die
 tags: [支付, 异步, php]
