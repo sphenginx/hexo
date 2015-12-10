@@ -378,7 +378,12 @@ Linux平台
 Mac平台
 - [Mou](http://mouapp.com/)
 
+
 ## 结语
-以上几种格式是比较常用的格式，所以我们针对这些语法做了比较详细的说明。除这些之外，Markdown 还有其他语法，如想了解和学习更多，可以参考这篇[『Markdown 语法说明』](http://wowubuntu.com/markdown/)。
+以上几种格式是比较常用的格式，所以我们针对这些语法做了比较详细的说明。除这些之外，Markdown 还有其他语法，如想了解和学习更多，可以参考这篇[『Markdown 语法说明』](http://wowubuntu.com/markdown/)。:smile: (It seems the hexo does not support emoji)…… 
+
+## 附
+- [Github markdown guide](https://guides.github.com/features/mastering-markdown/)
+- [emoji-cheat-sheet](http://www.emoji-cheat-sheet.com/)
 
 强烈建议您现在就立马用 Markdown 写一篇文章吧，体会一下 Markdown 的优雅之处！
