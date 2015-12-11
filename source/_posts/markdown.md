@@ -52,13 +52,19 @@ HTML 的区段（行内）标签如 `<span>`、`<cite>`、`<del>` 可以在 Mark
 
 支持的语言：`actionscript`, `apache`, `bash`, `clojure`, `cmake`, `coffeescript`, `cpp`, `cs`, `css`, `d`, `delphi`, `django`, `erlang`, `go`, `haskell`, `html`, `http`, `ini`, `java`, `javascript`, `json`, `lisp`, `lua`, `matlab`, `nginx`, `objectivec`, `perl`, `php`, `python`, `r`, `ruby`, `scala`, `smalltalk`, `sql`, `tex`, `vbscript`, `xml`
 
-\`\`\` javascript
-$(document).ready(function () {
-    alert('hello world');
-});
-\`\`\`
+	{% raw %}
+	&#96`` javascript
+	$(document).ready(function () {
+	    alert('hello world');
+	});
+	&#96``
+	{% endraw %}
+
+[谢谢hexo漩涡的帮助](https://github.com/hexojs/hexo/issues/1636)!  
+[详见hexo tag plugins](https://github.com/hexojs/site/blame/master/source/docs/tag-plugins.md#L135-L139)
 
 也可以使用 4 空格缩进，再贴上代码，实现相同的的效果
+
 <pre>
     def g(x):
         yield from range(x, 0, -1)
