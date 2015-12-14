@@ -38,3 +38,7 @@ $ hexo deploy
 ```
 
 More info: [Deployment](http://hexo.io/docs/deployment.html)
+
+## More Info
+- [Xuan Wo hexo usual problem](https://xuanwo.org/2014/08/14/hexo-usual-problem/)
+- [hexo你的博客](http://ibruce.info/2013/11/22/hexo-your-blog/)
