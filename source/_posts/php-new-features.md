@@ -138,8 +138,12 @@ $obj->runTest('通过对象调用');
 MethodTest::runTest('静态调用');  // As of PHP 5.3.0    
 ```
 以上代码执行后输出如下： 
-调用对象方法'runTest' –- 通过对象调用调用静态方法'runTest' –- 静态调用 
+```
+调用对象方法'runTest' –- 通过对象调用
+调用静态方法'runTest' –- 静态调用 
+```
 以函数形式来调用对象时，`__invoke()`方法将被自动调用。 
+
 ```php
 <?php    
 class MethodTest {    
