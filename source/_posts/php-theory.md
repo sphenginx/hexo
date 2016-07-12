@@ -92,7 +92,7 @@ while (p) {
 }
 RETURN FALTURE;
 ```
-+ PHP索引数组：索引数组就是我们常见的数组，通过下标访问。例如 $arr[0]，Zend HashTable内部进行了归一化处理，对于index类型key同样分配了hash值和nKeyLength(为0)。内部成员变量nNextFreeElement就是当前分配到的最大id，每次push后自动加一。正是这种归一化处理，PHP才能够实现关联和非关联的混合。由于push操作的特殊性，索引key在PHP数组中先后顺序并不是通过下标大小来决定，而是由push的先后决定。例如 $arr[1] = 2; $arr[2] = 3;对于double类型的key，Zend HashTable会将他当做索引key处理。
++ PHP索引数组：索引数组就是我们常见的数组，通过下标访问。例如 \$arr[0]，Zend HashTable内部进行了归一化处理，对于index类型key同样分配了hash值和nKeyLength(为0)。内部成员变量nNextFreeElement就是当前分配到的最大id，每次push后自动加一。正是这种归一化处理，PHP才能够实现关联和非关联的混合。由于push操作的特殊性，索引key在PHP数组中先后顺序并不是通过下标大小来决定，而是由push的先后决定。例如 \$arr[1] = 2; \$arr[2] = 3;对于double类型的key，Zend HashTable会将他当做索引key处理。
 
 
 ## PHP变量
@@ -162,7 +162,7 @@ $strA = sprintf (“%s%s”,$strA.$strB);
 
 PHP的数组通过Zend HashTable来天然实现。
 
-foreach操作如何实现？对一个数组的foreach就是通过遍历hashtable中的双向链表完成。对于索引数组，通过foreach遍历效率比for高很多，省去了key->value的查找。count操作直接调用HashTable->NumOfElements，O(1)操作。对于’123’这样的字符串，zend会转换为其整数形式。$arr[‘123’]和$arr[123]是等价的
+foreach操作如何实现？对一个数组的foreach就是通过遍历hashtable中的双向链表完成。对于索引数组，通过foreach遍历效率比for高很多，省去了key->value的查找。count操作直接调用HashTable->NumOfElements，O(1)操作。对于’123’这样的字符串，zend会转换为其整数形式。\$arr[‘123’]和\$arr[123]是等价的
 
 资源类型变量是PHP中最复杂的一种变量，也是一种复合型结构。
 
