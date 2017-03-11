@@ -182,7 +182,7 @@ $ git config --list
 ```
 - 生成ssh key
 ```
-ssh-keygen -t rsa -C "littleCui@gmail.com"
+ssh-keygen -t rsa -C "sphenginx@gmail.com"
 ```
 
 - 查看config信息
@@ -211,15 +211,15 @@ git config credential.helper wincred
 
 - 获取我的bitbucket的笔记仓库
 ```
-git clone https://sphenginx@bitbucket.org/sphenginx/my-php.git
+git clone https://github.com/sphenginx/sphenginx.git
 ```
 
 - 设置远程仓库地址
 ```
 git remote -v
 git remote --help
-git remote set origin https://sphenginx@bitbucket.org/sphenginx/my-php.git
-git remote set-url origin https://sphenginx@bitbucket.org/sphenginx/my-php.git
+git remote set origin https://github.com/sphenginx/sphenginx.git
+git remote set-url origin https://github.com/sphenginx/sphenginx.git
 ```
 
 - 正常提交命令
