@@ -122,8 +122,8 @@ Git 可以理解 kdiff3，tkdiff，meld，xxdiff，emerge，vimdiff，gvimdiff�
 要检查已有的配置信息，可以使用 `git config --list` 命令：
 ```
 $ git config --list
-user.name=Scott Chacon
-user.email=schacon@gmail.com
+user.name=sphenginx
+user.email=sphenginx@gmail.com
 color.status=auto
 color.branch=auto
 color.interactive=auto
